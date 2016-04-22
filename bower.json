@@ -1,0 +1,26 @@
+{
+  "name": "lancrafter-webclient",
+  "description": "Web client for Lancrafter",
+  "main": [],
+  "dependencies": {
+    "bootstrap-material-design": "~0.5.7"
+  },
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [],
+  "authors": [
+    "Heath Naylor <heath@bythepixel.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}

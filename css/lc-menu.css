@@ -1,0 +1,22 @@
+#main {
+  height: 65px;
+  display:block;
+  background: #000;
+}
+
+#main #menu {
+  color: #fff;
+  height: 33px;
+  width: 33px;
+  padding:20px;
+  display: block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#main .active {
+    background: blue;
+}

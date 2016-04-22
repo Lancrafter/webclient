@@ -1,0 +1,11 @@
+<div class="vote">
+    <div class="upvote glyphicon glyphicon-chevron-up {{ voteClasses.upvote }}"
+        (click)="onClick('up')"
+    ></div>
+    <div class="points">
+        {{ points }}
+    </div>
+    <div class="downvote glyphicon glyphicon-chevron-down {{ voteClasses.downvote }}"
+        (click)="onClick('down')"
+    ></div>
+</div>

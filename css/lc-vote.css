@@ -1,0 +1,28 @@
+.vote {
+    display: block;
+    width: 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;   
+}
+
+.upvote,
+.downvote,
+.points {
+    text-align: center;
+    width: 100%;
+}
+
+.glyphicon-chevron-down,
+.glyphicon-chevron-up {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.glyphicon-chevron-down.selected,
+.glyphicon-chevron-up.selected {
+    color: orange;
+}
